@@ -10,6 +10,9 @@ header {
   background: #fff;
   color: var(--black);
 }
+.headroom--not-top #navbar_global .navbar-nav-hover .nav-item a.nav-link .nav-link-inner--text{
+  color: #fff!important;
+}
 #main-header {
   margin-left: 30px;
   margin-right: 30px;
@@ -158,6 +161,14 @@ main {
   font-size: 80px;
   font-weight: bold;
 }
+.testimonial-text {
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+.testimonial-text p {
+  font-weight: bold;
+}
 .dollar-raised {
   color: var(--brand-color);
 }
@@ -167,6 +178,9 @@ main {
 .mplus-top {
   margin-top: 120px;
   margin-bottom: 120px;
+}
+.m-bottom {
+  margin-bottom: 70px;
 }
 #ourprograms-div {
   background: var(--brand-color);
@@ -193,4 +207,41 @@ main {
 }
 .footer a p {
   color: #fff!important;	
+}
+
+/* team.html */
+.team-placeholder {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+/*impact.html*/
+#header-impact {
+  font-size: 5rem;
+  position: relative;
+  top: 40%;
+  color: #fff;
+  text-align: center;
+}
+.alumnae {
+  height: 180px;
+  width: 180px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 15px;
+  padding-top: 35px;
+  text-align: center;
+  margin-top: 20px;
+}
+.alumni {
+  width: 240px;
+  height: 240px;
+  padding: 20px;
+  padding-top: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
 }
