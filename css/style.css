@@ -62,11 +62,11 @@ header {
   -moz-border-radius: 5px;
   border-radius: 5px;
  
-  -webkit-transition: width .55s ease;
+  /*-webkit-transition: width .55s ease;
   -moz-transition: width .55s ease;
   -ms-transition: width .55s ease;
   -o-transition: width .55s ease;
-  transition: width .55s ease;
+  transition: width .55s ease;*/
 }
 .container-2 .icon{
   position: absolute;
@@ -76,12 +76,13 @@ header {
   z-index: 1;
   color: var(--black);
 }
-.container-2 input#search:focus, .container-2 input#search:active{
+.container-2 input#search:focus, 
+.container-2 input#search:active {
   outline:none;
   border: 1px solid var(--black);
   width: 250px;
 }
-.container-2:hover input#search{
+.container-2:click input#search{
   width: 250px;
   border: 1px solid var(--black);
 }
@@ -172,6 +173,9 @@ main {
 .dollar-raised {
   color: var(--brand-color);
 }
+.mtop {
+  margin-top: 15px;
+}
 .m-top {
   margin-top: 60px;
 }
@@ -207,6 +211,12 @@ main {
 }
 .footer a p {
   color: #fff!important;	
+}
+.address-details {
+  margin-top: -16px;
+}
+.company-number {
+  margin-bottom: 0;
 }
 
 /* team.html */
@@ -244,4 +254,7 @@ main {
   border: 1px solid #000;
   border-radius: 50%;
   text-align: center;
+}
+.card-header {
+  padding: 0;
 }
