@@ -39,6 +39,14 @@ header {
   border: 2px solid var(--brand-color);
   margin-top: 5px;
 }
+.nav-item.active {
+  font-weight: bold;
+}
+.navbar-transparent .navbar-nav .show > .nav-link, .navbar-transparent .navbar-nav .active > .nav-link, .navbar-transparent .navbar-nav .nav-link.show, .navbar-transparent .navbar-nav .nav-link.active {
+    color: rgba(255, 255, 255, .65);
+    font-weight: bold;
+}
+
 .fa.fa-search {
   font-size: 14px !important;
 }
