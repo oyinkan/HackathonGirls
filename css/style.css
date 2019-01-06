@@ -287,3 +287,10 @@ main {
   width: 100%; 
   height: 760px;
 }
+
+@media screen and (max-width: 768px) {
+  #missiondiv {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
