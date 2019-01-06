@@ -239,7 +239,12 @@ main {
 .company-number {
   margin-bottom: 0;
 }
-
+@media screen and (max-width: 768px) {
+  #missiondiv {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
 /* team.html */
 .team-placeholder {
   width: 200px;
@@ -288,13 +293,3 @@ main {
   height: 760px;
 }
 
-@media screen and (max-width: 768px) {
-  #missiondiv {
-    margin-top: 0;
-    padding-top: 0;
-  }
-  .mission-div {
-    left: 0;
-    top: 0;
-  }
-}
