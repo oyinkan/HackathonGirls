@@ -293,4 +293,8 @@ main {
     margin-top: 0;
     padding-top: 0;
   }
+  .mission-div {
+    left: 0;
+    top: 0;
+  }
 }
