@@ -249,7 +249,9 @@ main {
 .team-placeholder {
   width: 200px;
   height: 200px;
-  background: #fff;
+  background: url(./../images/FullSizeRender.jpeg);
+  background-position: right;
+  background-size: contain;
   border-radius: 50%;
   margin: 20px auto;
 }
