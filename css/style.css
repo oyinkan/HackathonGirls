@@ -247,15 +247,13 @@ main {
 }
 /* team.html */
 .team-placeholder {
-  width: 200px;
-  height: 200px;
-  background: url(./../images/FullSizeRender.jpeg);
-  background-position: right;
-  background-size: contain;
-  border-radius: 50%;
   margin: 20px auto;
 }
-
+.team-placeholder img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 /*impact.html*/
 #header-impact {
   font-size: 5rem;
