@@ -230,7 +230,8 @@ main {
   background: var(--black);
   color: #fff;
 }
-.footer a p {
+.footer a p,
+.footer p a {
   color: #fff!important;	
 }
 .address-details {
