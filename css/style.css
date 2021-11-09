@@ -241,9 +241,29 @@ main {
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
+  #video-background {
+    display: none;
+  }
   #missiondiv {
     margin-top: 0;
     padding-top: 0;
+  }
+  #empower {
+    font-size: 60px;
+  }
+  .ignite {
+    color: #000;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .dollar-raised {
+    margin-top: 3rem;
+  }
+  #ourpartners-div {
+    padding: 80px 40px 80px 40px;
+  }
+  .dollar-raised {
+    margin-top: 0;
   }
 }
 /* team.html */
