@@ -265,7 +265,7 @@ main {
   .dollar-raised {
     margin-top: 0;
   }
-  .empower-container .learn-more {
+  #empower-div .learnmore {
     margin-top: 2rem!important;
   }
 }
