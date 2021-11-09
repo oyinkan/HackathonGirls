@@ -265,6 +265,9 @@ main {
   .dollar-raised {
     margin-top: 0;
   }
+  .empower-container .learn-more {
+    margin-top: 2rem!important;
+  }
 }
 /* team.html */
 .team-placeholder {
