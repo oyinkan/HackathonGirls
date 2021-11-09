@@ -110,9 +110,6 @@ main {
   font-size: 35px;
   color: var(--brand-color);
 }
-#missiondiv {
-  margin-top: 140px;
-}
 #empower {
   font-size: 70px;
   font-weight: bold;
